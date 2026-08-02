@@ -1,0 +1,63 @@
+:root {
+  /* Surfaces — warm stone/charcoal, not pure black */
+  --bg-void: #100b08;
+  --bg-base: #1a130f;
+  --bg-surface: #221812;
+  --bg-surface-raised: #2b1d15;
+  --bg-surface-hover: #33241a;
+
+  /* Hairline borders — gold at low opacity, like temple gilding catching light */
+  --border-subtle: rgba(201, 162, 39, 0.12);
+  --border-medium: rgba(201, 162, 39, 0.22);
+  --border-strong: rgba(201, 162, 39, 0.4);
+
+  /* Brand accents */
+  --maroon: #7a1e2b;
+  --maroon-bright: #a32c3d;
+  --maroon-wash: rgba(122, 30, 43, 0.18);
+  --gold: #c9a227;
+  --gold-bright: #e3c158;
+  --gold-wash: rgba(201, 162, 39, 0.14);
+  --saffron: #e8871e;
+  --saffron-wash: rgba(232, 135, 30, 0.16);
+  --sandstone: #d9cbb4;
+
+  /* Text */
+  --text-primary: #f4ead8;
+  --text-secondary: #b8a88c;
+  --text-muted: #8a7a63;
+  --text-on-accent: #fbf3e2;
+
+  /* Status */
+  --success: #4fae7d;
+  --success-wash: rgba(79, 174, 125, 0.16);
+  --warning: #e8871e;
+  --warning-wash: rgba(232, 135, 30, 0.16);
+  --danger: #d6524a;
+  --danger-wash: rgba(214, 82, 74, 0.16);
+  --info: #4c8daf;
+  --info-wash: rgba(76, 141, 175, 0.16);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-arch: 999px 999px 8px 8px;
+
+  /* Shadows */
+  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-raised: 0 14px 36px rgba(0, 0, 0, 0.45);
+  --shadow-glow-gold: 0 0 0 1px var(--border-medium), 0 0 24px rgba(201, 162, 39, 0.08);
+
+  /* Type */
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Inter", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Layout */
+  --sidebar-w: 264px;
+  --sidebar-w-collapsed: 76px;
+  --navbar-h: 68px;
+
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+}
